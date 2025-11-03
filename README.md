@@ -1,6 +1,6 @@
 # VulnPatchPairs
 
-This is the official repository for the VulnPatchPairs dataset, as introduced in our paper "Uncovering the Limits of Machine Learning for Automatic Vulnerability Detection" (USENIX 2024).
+This is the official repository for the VulnPatchPairs dataset, as introduced in our paper "Uncovering the Limits of Machine Learning for Automatic Vulnerability Detection" ().
 
 ## Setup
 
