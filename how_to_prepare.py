@@ -10,8 +10,9 @@ def separate_vulns_and_patches(df):
     vulns = vulns.rename(columns={'vulnerable_func': 'func'})
     vulns["target"] = 1
     
-    fused_df = patches.append(vulns)
-    fused_df = fused_df.reset_index()
+    #fused_df = patches.append(vulns)
+    #fused_df = fused_df.reset_index()
+    fused_df = pd.concat([patches, vulns], ignore_index=True)
     
     return fused_df
 
